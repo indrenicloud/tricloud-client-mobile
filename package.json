@@ -1,0 +1,27 @@
+{
+    "name": "tricloud-app",
+    "displayName": "TriCloud App",
+    "version": "1.0.0",
+    "description": "TriCloud App for mobile devices.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "cd ../tricloud-client-react/ && npm run build && cd ../tricloud-client-mobile/ &&  cordova run android"
+    },
+    "author": "TriCloud Team",
+    "license": "MIT",
+    "dependencies": {
+        "cordova-android": "^7.1.4",
+        "cordova-browser": "^5.0.4",
+        "cordova-plugin-whitelist": "^1.3.3"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {}
+        },
+        "platforms": [
+            "browser",
+            "android"
+        ]
+    }
+}
