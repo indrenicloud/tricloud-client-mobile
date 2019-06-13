@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "377332520632",
+    "firebase_url": "https://tricloud-f117a.firebaseio.com",
+    "project_id": "tricloud-f117a",
+    "storage_bucket": "tricloud-f117a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377332520632:android:444147888cdf8a7b",
+        "android_client_info": {
+          "package_name": "com.github.tricloud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377332520632-hils7dntmcjdmr2nuvgojv0q1fn1f2rs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrVp03QqbNSpC9dlXckHqsLhscby4MhP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377332520632-hils7dntmcjdmr2nuvgojv0q1fn1f2rs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

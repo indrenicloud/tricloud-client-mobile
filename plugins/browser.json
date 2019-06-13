@@ -9,7 +9,23 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-firebase-messaging": {
+      "PACKAGE_NAME": "com.github.tricloud"
+    },
+    "cordova-support-google-services": {
+      "PACKAGE_NAME": "com.github.tricloud"
+    },
+    "cordova-plugin-local-notification": {
+      "PACKAGE_NAME": "com.github.tricloud"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.github.tricloud"
+    },
+    "cordova-plugin-badge": {
+      "PACKAGE_NAME": "com.github.tricloud"
+    }
+  }
 }

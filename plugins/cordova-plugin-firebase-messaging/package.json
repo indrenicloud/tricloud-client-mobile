@@ -1,0 +1,67 @@
+{
+  "_from": "cordova-plugin-firebase-messaging",
+  "_id": "cordova-plugin-firebase-messaging@2.1.6",
+  "_inBundle": false,
+  "_integrity": "sha512-06g/OkQZ7aMYWuz+5gKarIcgg+YapSIMt/fVCSMc94SG5q2JcUe5MzcCV91gjRhe+YJjg+vR2z05gOgvIzxLbA==",
+  "_location": "/cordova-plugin-firebase-messaging",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-firebase-messaging",
+    "name": "cordova-plugin-firebase-messaging",
+    "escapedName": "cordova-plugin-firebase-messaging",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-firebase-messaging/-/cordova-plugin-firebase-messaging-2.1.6.tgz",
+  "_shasum": "59e116e4ee45c8d597138ba5004c55715b24e81f",
+  "_spec": "cordova-plugin-firebase-messaging",
+  "_where": "/home/aryan/go/src/github.com/indrenicloud/tricloud-client-mobile",
+  "author": {
+    "name": "Maksim Chemerisuk",
+    "email": "chemerisuk@gmail.com",
+    "url": "https://github.com/chemerisuk"
+  },
+  "bugs": {
+    "url": "https://github.com/chemerisuk/cordova-plugin-firebase-messaging/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-firebase-messaging",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova plugin for Firebase Messaging",
+  "homepage": "https://github.com/chemerisuk/cordova-plugin-firebase-messaging#readme",
+  "keywords": [
+    "cordova",
+    "firebase",
+    "push",
+    "fcm",
+    "gcm",
+    "messaging",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-firebase-messaging",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chemerisuk/cordova-plugin-firebase-messaging.git"
+  },
+  "scripts": {
+    "postversion": "git push && git push --tags",
+    "version": "replace -s 'version=\"(.+)(?=\">)' 'version=\"'$npm_package_version plugin.xml && git add plugin.xml"
+  },
+  "version": "2.1.6"
+}

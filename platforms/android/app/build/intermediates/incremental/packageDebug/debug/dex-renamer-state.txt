@@ -1,4 +1,0 @@
-#Tue Jun 04 02:13:07 NPT 2019
-base.0=/home/aryan/go/src/github.com/indrenicloud/tricloud-client-mobile/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex
