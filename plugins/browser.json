@@ -18,6 +18,9 @@
     },
     "cordova-plugin-local-notification": {
       "PACKAGE_NAME": "com.github.tricloud"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.github.tricloud"
     }
   },
   "dependent_plugins": {
